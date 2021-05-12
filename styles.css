@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-width: 600px;
+  margin: 0;
+  background-color: #43a047;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "PT Sans", sans-serif;
+  justify-content: flex-end;
+}
+
+#pond {
+  background-color: transparent;
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  align-content: space-between;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 100vh;
+  max-height: 75vh;
+  width: 50vw;
+  height: 50vw;
+}
+.water {
+  background-color: #1f5768;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 100vh;
+  max-height: 75vh;
+  width: 50vw;
+  height: 50vw;
+  position: relative;
+  z-index: 1;
+}
+
+.pads {
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  align-content: space-between;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 100vh;
+  max-height: 75vh;
+  width: 50vw;
+  height: 50vw;
+  z-index: -1;
+}
